@@ -1,10 +1,202 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>House for Rent</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#102a2e" />
+  <meta name="description" content="3-story commercial property for rent in Hội An, suitable for restaurant and hospitality use." />
+  <title>Commercial Property for Rent | Hội An</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>House for Rent</h1>
-  <p>Website coming soon.</p>
+  <header class="nav">
+    <a href="#top" class="brand">Hội An Property</a>
+    <nav class="nav-links">
+      <a href="#property" data-en="Property" data-vi="Mặt bằng">Property</a>
+      <a href="#gallery" data-en="Gallery" data-vi="Hình ảnh">Gallery</a>
+      <a href="#location" data-en="Location" data-vi="Khu vực">Location</a>
+      <a href="#contact" class="nav-contact" data-en="Contact" data-vi="Liên hệ">Contact</a>
+      <button id="langBtn" class="lang-btn" aria-label="Switch language">VI</button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <img src="assets/photo-01.jpg" alt="Front of the three-story commercial property" class="hero-image">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <span class="eyebrow" data-en="COMMERCIAL PROPERTY FOR RENT" data-vi="MẶT BẰNG KINH DOANH CHO THUÊ">COMMERCIAL PROPERTY FOR RENT</span>
+        <h1 data-en="A 3-Story Space Made for Hospitality" data-vi="Nhà 3 Tầng Phù Hợp Kinh Doanh Dịch Vụ">A 3-Story Space Made for Hospitality</h1>
+        <p class="hero-sub" data-en="Restaurant-ready space in a lively Hội An commercial area, with multiple floors, outdoor areas and strong street presence."
+           data-vi="Mặt bằng phù hợp kinh doanh nhà hàng tại khu vực sôi động ở Hội An, có nhiều tầng, không gian ngoài trời và mặt tiền nổi bật.">
+           Restaurant-ready space in a lively Hội An commercial area, with multiple floors, outdoor areas and strong street presence.
+        </p>
+        <div class="hero-actions">
+          <a href="tel:+84913402238" class="btn btn-primary" data-en="Call 0913 402 238" data-vi="Gọi 0913 402 238">Call 0913 402 238</a>
+          <a href="#gallery" class="btn btn-ghost" data-en="View Photos" data-vi="Xem Hình">View Photos</a>
+        </div>
+      </div>
+      <div class="price-card">
+        <div>
+          <span data-en="Monthly rent" data-vi="Giá thuê / tháng">Monthly rent</span>
+          <strong>55,000,000₫</strong>
+          <small data-en="≈ US$2,100 · exchange rate varies" data-vi="≈ 2.100 USD · tỷ giá có thể thay đổi">≈ US$2,100 · exchange rate varies</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="quick-stats">
+      <div><strong>3</strong><span data-en="Floors" data-vi="Tầng">Floors</span></div>
+      <div><strong>✓</strong><span data-en="Restaurant Use" data-vi="Phù hợp nhà hàng">Restaurant Use</span></div>
+      <div><strong>✓</strong><span data-en="Terrace / Outdoor Space" data-vi="Sân thượng / ngoài trời">Terrace / Outdoor Space</span></div>
+      <div><strong>✓</strong><span data-en="Busy Commercial Area" data-vi="Khu kinh doanh sôi động">Busy Commercial Area</span></div>
+    </section>
+
+    <section class="section intro" id="property">
+      <div class="section-label" data-en="THE PROPERTY" data-vi="MẶT BẰNG">THE PROPERTY</div>
+      <div class="split">
+        <div>
+          <h2 data-en="Flexible space for a restaurant, café or hospitality concept."
+              data-vi="Không gian linh hoạt cho nhà hàng, quán cà phê hoặc mô hình dịch vụ.">
+              Flexible space for a restaurant, café or hospitality concept.
+          </h2>
+        </div>
+        <div class="prose">
+          <p data-en="The property spans three floors and is currently configured for food and beverage use. The ground level offers visible frontage and dining space, while upper levels provide additional rooms, utility space and open-air areas."
+             data-vi="Căn nhà gồm 3 tầng và hiện đang được bố trí để kinh doanh ăn uống. Tầng trệt có mặt tiền dễ nhìn và khu vực phục vụ khách; các tầng trên có thêm phòng, khu phụ trợ và không gian ngoài trời.">
+             The property spans three floors and is currently configured for food and beverage use. The ground level offers visible frontage and dining space, while upper levels provide additional rooms, utility space and open-air areas.
+          </p>
+          <p data-en="The surrounding street is active with restaurants, cafés, spas and tourist-oriented businesses, creating a strong setting for a customer-facing business."
+             data-vi="Khu vực xung quanh có nhiều nhà hàng, quán cà phê, spa và dịch vụ dành cho khách du lịch, phù hợp cho mô hình kinh doanh trực tiếp với khách hàng.">
+             The surrounding street is active with restaurants, cafés, spas and tourist-oriented businesses, creating a strong setting for a customer-facing business.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature-grid">
+      <article>
+        <span>01</span>
+        <h3 data-en="Restaurant-ready layout" data-vi="Bố trí phù hợp nhà hàng">Restaurant-ready layout</h3>
+        <p data-en="Dining areas, service space, kitchen/prep area and bathrooms already exist."
+           data-vi="Đã có khu vực phục vụ khách, khu bếp/chuẩn bị, và nhà vệ sinh.">
+           Dining areas, service space, kitchen/prep area and bathrooms already exist.
+        </p>
+      </article>
+      <article>
+        <span>02</span>
+        <h3 data-en="Multiple usable levels" data-vi="Nhiều tầng sử dụng">Multiple usable levels</h3>
+        <p data-en="Three floors allow the business to separate dining, operations, storage, office or private areas."
+           data-vi="Ba tầng giúp dễ dàng tách khu phục vụ, vận hành, kho, văn phòng hoặc không gian riêng.">
+           Three floors allow the business to separate dining, operations, storage, office or private areas.
+        </p>
+      </article>
+      <article>
+        <span>03</span>
+        <h3 data-en="Outdoor & terrace potential" data-vi="Tiềm năng sân thượng & ngoài trời">Outdoor & terrace potential</h3>
+        <p data-en="Open-air spaces and upper-floor views create options for seating, lounge or guest areas."
+           data-vi="Không gian ngoài trời và tầm nhìn từ tầng trên phù hợp làm khu ngồi, lounge hoặc khu vực cho khách.">
+           Open-air spaces and upper-floor views create options for seating, lounge or guest areas.
+        </p>
+      </article>
+    </section>
+
+    <section class="section gallery-section" id="gallery">
+      <div class="gallery-header">
+        <div>
+          <div class="section-label" data-en="PHOTO TOUR" data-vi="HÌNH ẢNH">PHOTO TOUR</div>
+          <h2 data-en="See the property and its surroundings." data-vi="Xem không gian và khu vực xung quanh.">See the property and its surroundings.</h2>
+        </div>
+        <p data-en="Tap any photo to enlarge." data-vi="Bấm vào ảnh để xem lớn.">Tap any photo to enlarge.</p>
+      </div>
+
+      <div class="gallery">
+        <button class="photo wide"><img src="assets/photo-02.jpg" alt="Property exterior"></button>
+        <button class="photo"><img src="assets/photo-07.jpg" alt="Restaurant interior"></button>
+        <button class="photo"><img src="assets/photo-08.jpg" alt="Upper terrace"></button>
+        <button class="photo tall"><img src="assets/photo-04.jpg" alt="Commercial street"></button>
+        <button class="photo"><img src="assets/photo-09.jpg" alt="Kitchen and sink area"></button>
+        <button class="photo"><img src="assets/photo-10.jpg" alt="Upper floor room"></button>
+        <button class="photo wide"><img src="assets/photo-05.jpg" alt="Evening street scene"></button>
+        <button class="photo"><img src="assets/photo-13.jpg" alt="Bathroom"></button>
+        <button class="photo"><img src="assets/photo-15.jpg" alt="Upper floor view"></button>
+        <button class="photo"><img src="assets/photo-17.jpg" alt="Side access"></button>
+        <button class="photo"><img src="assets/photo-11.jpg" alt="Interior room"></button>
+        <button class="photo"><img src="assets/photo-16.jpg" alt="View from upper floor"></button>
+      </div>
+    </section>
+
+    <section class="section location" id="location">
+      <div class="location-photo">
+        <img src="assets/photo-06.jpg" alt="Street surrounding the property">
+      </div>
+      <div class="location-copy">
+        <div class="section-label" data-en="LOCATION & VISIBILITY" data-vi="VỊ TRÍ & MẶT TIỀN">LOCATION & VISIBILITY</div>
+        <h2 data-en="Surrounded by active hospitality and tourism businesses."
+            data-vi="Bao quanh bởi nhiều hoạt động kinh doanh du lịch và dịch vụ.">
+            Surrounded by active hospitality and tourism businesses.
+        </h2>
+        <p data-en="The immediate area includes restaurants, coffee shops, spas and entertainment venues. The property has visible street frontage plus side access."
+           data-vi="Khu vực xung quanh có nhà hàng, quán cà phê, spa và điểm vui chơi. Căn nhà có mặt tiền dễ nhìn và lối đi bên hông.">
+           The immediate area includes restaurants, coffee shops, spas and entertainment venues. The property has visible street frontage plus side access.
+        </p>
+        <div class="location-points">
+          <span data-en="High street visibility" data-vi="Mặt tiền dễ nhìn">High street visibility</span>
+          <span data-en="Tourist-oriented area" data-vi="Khu vực nhiều khách du lịch">Tourist-oriented area</span>
+          <span data-en="Side access" data-vi="Có lối đi bên hông">Side access</span>
+          <span data-en="Established restaurant setting" data-vi="Sẵn không gian nhà hàng">Established restaurant setting</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" id="contact">
+      <div>
+        <div class="section-label light" data-en="AVAILABLE FOR RENT" data-vi="ĐANG CHO THUÊ">AVAILABLE FOR RENT</div>
+        <h2 data-en="Interested in viewing the property?"
+            data-vi="Bạn muốn xem mặt bằng trực tiếp?">
+            Interested in viewing the property?
+        </h2>
+        <p data-en="Call to ask questions or arrange a viewing."
+           data-vi="Gọi để hỏi thêm thông tin hoặc hẹn xem mặt bằng.">
+           Call to ask questions or arrange a viewing.
+        </p>
+      </div>
+      <div class="contact-panel">
+        <div class="rent-line">
+          <span data-en="Rent" data-vi="Giá thuê">Rent</span>
+          <strong>55,000,000 VND / month</strong>
+          <small>≈ US$2,100 / month</small>
+        </div>
+        <a class="phone-big" href="tel:+84913402238">0913 402 238</a>
+        <button id="copyBtn" class="copy-btn" data-en="Copy phone number" data-vi="Sao chép số điện thoại">Copy phone number</button>
+      </div>
+    </section>
+
+    <section class="share-section">
+      <div>
+        <h3 data-en="Share this listing" data-vi="Chia sẻ thông tin">Share this listing</h3>
+        <p data-en="Scan the QR code to open this page on a phone."
+           data-vi="Quét mã QR để mở trang này trên điện thoại.">
+           Scan the QR code to open this page on a phone.
+        </p>
+      </div>
+      <img src="assets/qr-code.png" alt="QR code for this property listing" class="qr">
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 Hội An Property</span>
+    <a href="tel:+84913402238">0913 402 238</a>
+  </footer>
+
+  <dialog id="lightbox">
+    <button id="closeLightbox" aria-label="Close">×</button>
+    <img id="lightboxImage" alt="">
+  </dialog>
+
+  <script src="script.js"></script>
 </body>
 </html>
